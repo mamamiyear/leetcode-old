@@ -44,7 +44,7 @@ public class TreeNode {
             queue.offer(node.left);
             queue.offer(node.right);
         }
-//        clearNullTreeNode(root);
+        clearNullTreeNode(root);
         return root;
     }
 
